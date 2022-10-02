@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Padma gopal</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="myPage">
+
+<!-- Sidebar on click -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+    <i class="fa fa-remove"></i>
+  </a>
+  <a href="#" class="w3-bar-item w3-button">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button">Link 3</a>
+  <a href="#" class="w3-bar-item w3-button">Link 4</a>
+  <a href="#" class="w3-bar-item w3-button">Link 5</a>
+</nav>
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>home</a>
+<a href="file:///C:/Users/Vinit/OneDrive/Desktop/About%20Poet.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About Poet</a>
+  <a href="file:///C:/Users/Vinit/OneDrive/Desktop/About%20Book.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About book</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Home</a>
+    <a href="#work" class="w3-bar-item w3-button">Work</a>
+    <a href="#pricing" class="w3-bar-item w3-button">Price</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">language</a>
+  </div>
+</div>
+
+
+<!-- Image Header -->
+<div class="w3-display-container w3-animate-opacity">
+  <img src="C:\Users\Vinit\OneDrive\Desktop\poster.jpg" alt="book" style="width:100%;min-height:550px;max-height:600px;">
+  <div class="w3-container w3-display-bottomleft w3-margin-bottom">  
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS">Padma Gopal</button>
+  </div>
+</div>  
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-teal w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+      <h4>this is the photo of the poster</h4>
+    </header>
+    <footer class="w3-container w3-teal">
+     
+    </footer>
+  </div>
+</div>
+
+<!-- Team Container -->
+<div class="w3-container w3-padding-64 w3-center" id="team"
+
+<!-- Work Row -->
+<div class="w3-row-padding w3-padding-64 w3-theme-l1" id="work">
+
+<div class="w3-quarter">
+<h2>Padma Gopal</h2>
+<p>Padma Gopal is book of marathi poem (kavitasangraha) , it was recentry published on 31st of july.Ms. Nirmala Vasantrao kale started writing poems form the age of 20 and contunied writing poems even after her marrige . she has written over a 1000 poem and Padma Gopal is a collection of just 100 poems out of a thousand poems. the poems in the book are based on various topics such as siritual,life, kids poem (Balgeet) etc.</p>
+</div>
+
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="C:\Users\Vinit\OneDrive\Desktop\efomwerig.jpg" alt="book" style="width:100%">
+  <div class="w3-container">
+  <h3>book</h3>
+  <h4</h4>
+  <p></p>
+  <p></p>
+  <p></p>
+  <p></p>
+  </div>
+  </div>
+</div>
+
+<div class="w3-quarter">
+<div class="w3-card w3-white">
+  <img src="C:\Users\Vinit\OneDrive\Desktop\DSC_0178.jpg" alt="poet" style="width:100%">
+  <div class="w3-container">
+  <h3>Poet</h3>
+  <h4></h4>
+  <p></p>
+  <p></p>
+  <p></p>
+  <p></p>
+  </div>
+  </div>
+</div>
+
+</div>
+
+
+ 
+
+  <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+</footer>
+
+<script>
+// Script for side navigation
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "300px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html> 
+<br>
+<br>
+<br>
+<br>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Padma gopal</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+</head>
+<body>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:500px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="C:\Users\Vinit\OneDrive\Desktop\DSC_0178.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>poet</h3>
+      <p><b>poet dilevering a speech</b></p>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="C:\Users\Vinit\OneDrive\Desktop\fcdpv.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>book</h3>
+      <p><b>the rangoli of the book</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="C:\Users\Vinit\OneDrive\Desktop\poster.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3></h3>
+      <p><b></b></p>    
+    </div>
+  </div>
+
+  <!-- About the poet -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">About the poet</h2>
+    <p class="w3-opacity"><i>The Story</i></p>
+    <p class="w3-justify">Padma Gopal is her first poetry collection. she grew up in a village in a solePatil house where The nature was quiet and timid. she was the only girl in sixth and seventh class. Later, she studied in Ahemadnagar . she studied there only till eleventh standard. He somehow completed his further education by staying in the village and coming to the city only for exams. Famous poetess Vandana Vitankar used to live opposite to Nirmalas house in nagar. she used to listen to his songs on the radio. she had douts and she used to ask herself the question that will she be able to write? Poet Mr. Ramdas Phutane used to come to her father. Due to all this, the mind was more inclined towards the subjects of poetry. He is also very fond of reading. She learned that Rajni Bhalerao who was form her village also wrote poetry. she used to Bring her notebook and read it, she became more enthusiastic and started writing poems vigorously. It must have been 1977. she was twenty years when she wrote her frist poem .At first she did not like her poems cause It didn't go that well. So she didn't show it to anyone. After marriage, she did not write anything for almost twenty years. Later, when herchildren grew up, she found time and automatically turned to poetry as a hobby. Writing poetry requires time and solitude and must be suggested from the heart. Occasionally she did not get time to writes poems. There was no time to write, but she would stop work and take time to write, so that the lines her mind would not escape. she used to a paper and pen somewhere nearby. Most of the time, the paper was kept on the fridge, under the mattress or in the purse. Later, when he had free time, she would write poems on paper in a notebook. Thus these poems were written and preserved. While at Jamkhed, she read all kinds of books and texts from the library. That made the thoughts deeper . later she shifted to pune but she didnt give up on her hoby she continued writing and this is how she managed to write over a 1000 poems.</p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+       
+        
+      </div>
+      <div class="w3-third">
+     
+         
+      </div>
+      <div class="w3-third">
+       
+       
+      </div>
+    </div>
+  </div>
+
+  
+
+  
+ 
+  
+<!-- End Page Content -->
+</div>
+
+
+<!-- Footer -->
+
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html> 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+</head>
+<body>
+
+
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">poem </h1>
+      <p><p> 114 शब्दांचा हा खेळ</p>
+
+
+<p>शब्दांचा हा खेळ सारा, शब्दांचाच हा पसारा </p>
+<p>शब्द सखा शब्द सोयरा, शब्दच बने कधी आसरा </p> 
+<br>
+
+<p>शब्दानेच होते प्रगती, शब्दानेच होते अधोगती</p>
+<p>शब्द जोडती नाती गोती,शब्द तोडती प्रिय सोबती</p>
+<br>
+ 
+<p>शब्दानेही प्रेम जुळते, शब्दांने ही संपत्ती मिळते  </p>     
+<p>शब्दाने मनतृष्णा भागते,शब्दानेच मनीषा जागते </p>
+<br>
+
+<p>शब्द सावरी दुःखाग्निला, शब्द आवरी क्रोधाग्निला</p>
+<p>शब्दाने उत्साह मनाला,शब्दाने आधार कुणाला </p>
+<br>
+
+<p>शब्दाने मनाचा रोग वाढतो,शब्द शरीरा पुष्टि देतो  </p>
+<p>शब्द मनाला स्फुर्ति देतो,शब्द शरीरा शक्ती देतो</p>
+<br>
+
+<p>शब्दही बनति कधी दिवाणे,शब्दही गाती कधी गाणे </p>
+<p>शब्द असती कधी शहाणे, शब्द नुसते कागदी बाणे </p>
+<br>
+
+<p>शब्दात गोडी मध साखरेची, शब्द विषारी जात सर्पाची </p>
+<p>शब्दाने आयुष्य आबादी,शब्दाने बरबादी आयुष्याची </p></p>
+    </div>  
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<!-- Contact Container -->
+<div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+  <div class="w3-row">
+    <div class="w3-col m5">
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
+      <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  test@test.com</p>
+    </div>
+    <div class="w3-col m7">
+      <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
+      <div class="w3-section">      
+        <label>Name</label>
+        <input class="w3-input" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">      
+        <label>Email</label>
+        <input class="w3-input" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">      
+        <label>Message</label>
+        <input class="w3-input" type="text" name="Message" required>
+      </div>  
+      <input class="w3-check" type="checkbox" checked name="Like">
+      <label>I Like it!</label>
+      <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" class="w3-bar-item w3-button">send</a>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  <h2>Purchase the book</h2>
+ <form action="https://www.amazon.in/Padm-Gopal-Marathi-Kavitasangrah-Book/dp/B0B7MD2WRJ/ref=sr_1_fkmr0_1?crid=1WDQSFC961TK7&keywords=nirmala+vasantra+kale&qid=1664533987&qu=eyJxc2MiOiIxLjMwIiwicXNhIjoiMC4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=%2Caps%2C475&sr=8-1-fkmr0">
+    <input type="submit" value="Click here to purchase the book " />
+</form>  
+<div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+
+   
+  
+
+  
+  
+  
+
+
+</body>
+</html>
+
+
