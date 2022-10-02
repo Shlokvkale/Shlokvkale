@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
+</head>
+<body class="w3-light-grey">
+
+<!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+<div class="w3-content" style="max-width:1400px">
+
+<!-- Header -->
+<header class="w3-container w3-center w3-padding-32"> 
+  <h1><b>Padma Gopal</b></h1>
+  <p>by Nirmala Vasantrao Kale<span class="w3-tag"></span></p>
+</header>
+
+<!-- Grid -->
+<div class="w3-row">
+
+<!-- Blog entries -->
+<div class="w3-col l8 s12">
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <div class="w3-container">
+      <h3><b>About Book</b></h3>
+      <h5></span></h5>
+    </div>
+
+    <div class="w3-container">
+      <p>Padma Gopal is book of marathi poem (kavitasangraha) , it was recentry published on 31st of july.Ms. Nirmala Vasantrao kale started writing poems form the age of 20 and contunied writing poems even after her marrige . she has written over a 1000 poem and Padma Gopal is a collection of just 100 poems out of a thousand poems. the poems in the book are based on various topics such as siritual,life, kids poem (Balgeet) etc.</p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p></p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <!-- Blog entry -->
+  <div class="w3-card-4 w3-margin w3-white">
+    <div class="w3-container">
+      <h3><b>Read the poems</b></h3>
+      <h5></h5>
+    </div>
+
+    <div class="w3-container">
+      <p> 114 शब्दांचा हा खेळ</p>
+
+
+<p>शब्दांचा हा खेळ सारा, शब्दांचाच हा पसारा </p>
+<p>शब्द सखा शब्द सोयरा, शब्दच बने कधी आसरा </p> 
+<br>
+
+<p>शब्दानेच होते प्रगती, शब्दानेच होते अधोगती</p>
+<p>शब्द जोडती नाती गोती,शब्द तोडती प्रिय सोबती</p>
+<br>
+ 
+<p>शब्दानेही प्रेम जुळते, शब्दांने ही संपत्ती मिळते  </p>     
+<p>शब्दाने मनतृष्णा भागते,शब्दानेच मनीषा जागते </p>
+<br>
+
+<p>शब्द सावरी दुःखाग्निला, शब्द आवरी क्रोधाग्निला</p>
+<p>शब्दाने उत्साह मनाला,शब्दाने आधार कुणाला </p>
+<br>
+
+<p>शब्दाने मनाचा रोग वाढतो,शब्द शरीरा पुष्टि देतो  </p>
+<p>शब्द मनाला स्फुर्ति देतो,शब्द शरीरा शक्ती देतो</p>
+<br>
+
+<p>शब्दही बनति कधी दिवाणे,शब्दही गाती कधी गाणे </p>
+<p>शब्द असती कधी शहाणे, शब्द नुसते कागदी बाणे </p>
+<br>
+
+<p>शब्दात गोडी मध साखरेची, शब्द विषारी जात सर्पाची </p>
+<p>शब्दाने आयुष्य आबादी,शब्दाने बरबादी आयुष्याची </p>
+<br>
+<a href="https://www.amazon.in/Padm-Gopal-Marathi-Kavitasangrah-Book/dp/B0B7MD2WRJ/ref=sr_1_fkmr0_1?crid=1WDQSFC961TK7&keywords=nirmala+vasantra+kale&qid=1664533987&qu=eyJxc2MiOiIxLjMwIiwicXNhIjoiMC4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=%2Caps%2C475&sr=8-1-fkmr0">Read more poems</a>
+ 
+<p></p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+          <p></p>
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- END BLOG ENTRIES -->
+</div>
+
+<!-- Introduction menu -->
+<div class="w3-col l4">
+  <!-- About Card -->
+  <div class="w3-card w3-margin w3-margin-top">
+    <div class="w3-container w3-white">
+      <h4><b>Padma Gopal</b></h4>
+      <p>Padma Gopal is book that contains a set of poems which are based on life , kids song,spirituality and many more topics.</p>
+    </div> 
+<br>
+<br>
+<img src="C:\Users\Vinit\OneDrive\Desktop\efomwerig.jpg" alt="poet" style="width:100%">
+  
+  
+<!-- END Introduction Menu -->
+</div>
+
+<!-- END GRID -->
+</div><br>
+
+<!-- END w3-content -->
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  <h2>Purchase the book</h2>
+ <form action="https://www.amazon.in/Padm-Gopal-Marathi-Kavitasangrah-Book/dp/B0B7MD2WRJ/ref=sr_1_fkmr0_1?crid=1WDQSFC961TK7&keywords=nirmala+vasantra+kale&qid=1664533987&qu=eyJxc2MiOiIxLjMwIiwicXNhIjoiMC4wMCIsInFzcCI6IjAuMDAifQ%3D%3D&sprefix=%2Caps%2C475&sr=8-1-fkmr0">
+    <input type="submit" value="Click here to purchase the book " />
+</form>  
+<div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+    <span class="w3-text w3-padding w3-teal w3-hide-small">Go To Top</span>   
+    <a class="w3-button w3-theme" href="#myPage"><span class="w3-xlarge">
+    <i class="fa fa-chevron-circle-up"></i></span></a>
+  </div>
+
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="#" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>About Book</a>
+  <a href="file:///C:/Users/Vinit/OneDrive/Desktop/home.html" class="w3-bar-item w3-button w3-hide-small w3-hover-black">Home</a>
+  <a href="file:///C:/Users/Vinit/OneDrive/Desktop/About%20Poet.html" class="w3-bar-item w3-button w3-hide-small w3-hover-black">About Poet</a>
+
+
+
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Home</a>
+    <a href="#work" class="w3-bar-item w3-button">Work</a>
+    <a href="#pricing" class="w3-bar-item w3-button">Price</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">language</a>
+  </div>
+
+</body>
+</html>
